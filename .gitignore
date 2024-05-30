@@ -579,3 +579,6 @@ xcuserdata/
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/react,reactnative,visualstudiocode,python,jupyternotebooks,pycharm
+
+# test images
+Prototypes/test_images/*
