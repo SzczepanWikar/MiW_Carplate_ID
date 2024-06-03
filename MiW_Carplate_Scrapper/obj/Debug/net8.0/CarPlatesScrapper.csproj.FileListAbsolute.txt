@@ -1,0 +1,61 @@
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\obj\Debug\net8.0\CarPlatesScrapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\obj\Debug\net8.0\CarPlatesScrapper.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\obj\Debug\net8.0\CarPlatesScrapper.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\obj\Debug\net8.0\CarPlatesScrapper.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\obj\Debug\net8.0\CarPlatesScrapper.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\bin\Debug\net8.0\appsettings.json
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\bin\Debug\net8.0\CarPlatesScrapper.exe
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\bin\Debug\net8.0\CarPlatesScrapper.deps.json
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\bin\Debug\net8.0\CarPlatesScrapper.runtimeconfig.json
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\bin\Debug\net8.0\CarPlatesScrapper.dll
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\bin\Debug\net8.0\CarPlatesScrapper.pdb
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\obj\Debug\net8.0\staticwebassets\msbuild.CarPlatesScrapper.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\obj\Debug\net8.0\staticwebassets\msbuild.build.CarPlatesScrapper.props
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CarPlatesScrapper.props
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CarPlatesScrapper.props
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\obj\Debug\net8.0\scopedcss\bundle\CarPlatesScrapper.styles.css
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\obj\Debug\net8.0\CarPlatesScrapper.dll
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\obj\Debug\net8.0\refint\CarPlatesScrapper.dll
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\obj\Debug\net8.0\CarPlatesScrapper.pdb
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\obj\Debug\net8.0\CarPlatesScrapper.genruntimeconfig.cache
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\obj\Debug\net8.0\ref\CarPlatesScrapper.dll
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\bin\Debug\net8.0\HtmlAgilityPack.dll
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\bin\Debug\net8.0\HtmlAgilityPack.CssSelectors.NetCore.dll
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\obj\Debug\net8.0\CarPlatesScrapper.csproj.AssemblyReference.cache
+C:\Users\Lenovo\OneDrive\Dokumenty\Algorithms and DataStructures\CarPlatesScrapper\CarPlatesScrapper\obj\Debug\net8.0\CarPlate.CF72C590.Up2Date
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\bin\Debug\net8.0\appsettings.json
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\bin\Debug\net8.0\CarPlatesScrapper.exe
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\bin\Debug\net8.0\CarPlatesScrapper.deps.json
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\bin\Debug\net8.0\CarPlatesScrapper.runtimeconfig.json
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\bin\Debug\net8.0\CarPlatesScrapper.dll
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\bin\Debug\net8.0\CarPlatesScrapper.pdb
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\bin\Debug\net8.0\HtmlAgilityPack.dll
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\bin\Debug\net8.0\HtmlAgilityPack.CssSelectors.NetCore.dll
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\CarPlatesScrapper.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\CarPlatesScrapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\CarPlatesScrapper.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\CarPlatesScrapper.AssemblyInfo.cs
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\CarPlatesScrapper.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\CarPlatesScrapper.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\CarPlatesScrapper.sourcelink.json
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\staticwebassets\msbuild.CarPlatesScrapper.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\staticwebassets\msbuild.build.CarPlatesScrapper.props
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CarPlatesScrapper.props
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CarPlatesScrapper.props
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\scopedcss\bundle\CarPlatesScrapper.styles.css
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\CarPlate.CF72C590.Up2Date
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\CarPlatesScrapper.dll
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\refint\CarPlatesScrapper.dll
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\CarPlatesScrapper.pdb
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\CarPlatesScrapper.genruntimeconfig.cache
+C:\Users\Lenovo\Source\Repos\MiW_Carplate_ID\MiW_Carplate_Scrapper\obj\Debug\net8.0\ref\CarPlatesScrapper.dll
