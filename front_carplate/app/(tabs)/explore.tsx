@@ -21,9 +21,35 @@ export default function HomeScreen() {
 	};
 
 	async function sendPickerPhotoToAPI() {
-		if (image) {
-			console.log(image);
-		}
+		// if (image) {
+		// 	console.log(image);
+		// }
+
+		const postImage = async () => {
+			try {
+				const formData = new FormData();
+				formData.append("image", {
+					uri: image,
+					type: "image/jpeg",
+					name: "photo.jpg",
+				});
+
+				const response = await fetch("http://localhost:5175/plate", {
+					method: "POST",
+					body: formData,
+				});
+
+				if (!response.ok) {
+					throw new Error("Failed to post image");
+				}
+
+				return response;
+			} catch (error) {
+				console.log("Error sending photo", error);
+			}
+		};
+
+		postImage();
 	}
 
 	return (
