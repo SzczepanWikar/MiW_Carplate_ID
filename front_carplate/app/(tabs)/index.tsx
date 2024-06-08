@@ -7,6 +7,7 @@ import {
 	Text,
 	TouchableOpacity,
 	View,
+	Modal,
 } from "react-native";
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
 	const [camera, setCamera] = useState(null);
 	const [photo, setPhoto] = useState(null);
 	const [permission, requestPermission] = useCameraPermissions();
+	const [modalVisible, setModalVisible] = useState(false); // State for modal visibility
 
 	if (!permission) {
 		return <View />;
@@ -40,6 +42,8 @@ export default function App() {
 	async function sendPhotoToAPI() {
 		if (photo) {
 			console.log(photo);
+			// Open modal after taking photo
+			setModalVisible(true);
 		}
 	}
 
@@ -86,6 +90,23 @@ export default function App() {
 					</TouchableOpacity>
 				</CameraView>
 			)}
+			{/* Modal */}
+			<Modal
+				animationType='slide'
+				transparent={true}
+				visible={modalVisible}
+				onRequestClose={() => setModalVisible(false)}>
+				<View style={styles.modalContainer}>
+					<View style={styles.modalContent}>
+						<Text style={styles.modalHeaderText}>KRA57028</Text>
+						{/* Tekst zamiast listy */}
+						<Text style={styles.modalText}>No comments</Text>
+						<TouchableOpacity onPress={() => setModalVisible(false)}>
+							<Text style={styles.exitButton}>Exit</Text>
+						</TouchableOpacity>
+					</View>
+				</View>
+			</Modal>
 		</View>
 	);
 }
@@ -154,5 +175,38 @@ const styles = StyleSheet.create({
 		fontSize: 18,
 		fontWeight: "bold",
 		color: "white",
+	},
+	modalContainer: {
+		flex: 1,
+		justifyContent: "center",
+		alignItems: "center",
+		backgroundColor: "rgba(0, 0, 0, 0.5)",
+	},
+	modalContent: {
+		backgroundColor: "#fff",
+		padding: 20,
+		width: 375,
+		borderRadius: 10,
+		alignItems: "center",
+	},
+	modalHeaderText: {
+		fontSize: 32,
+		fontWeight: "bold",
+		marginBottom: 10,
+	},
+	modalText: {
+		fontSize: 18,
+		marginBottom: 5,
+		textAlign: "center", // opcjonalne: do centrowania tekstu
+	},
+	exitButton: {
+		marginTop: 20,
+		color: "#FFFFFF",
+		fontSize: 24,
+		borderRadius: 5,
+		fontWeight: "bold",
+		backgroundColor: "#FF0000",
+		paddingVertical: 5,
+		paddingHorizontal: 10,
 	},
 });

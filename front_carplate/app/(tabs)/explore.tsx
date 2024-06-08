@@ -1,9 +1,17 @@
 import { useState } from "react";
-import { Image, View, StyleSheet, Text, TouchableOpacity } from "react-native";
+import {
+	Image,
+	View,
+	StyleSheet,
+	Text,
+	TouchableOpacity,
+	Modal,
+} from "react-native";
 import * as ImagePicker from "expo-image-picker";
 
 export default function HomeScreen() {
 	const [image, setImage] = useState<string | null>(null);
+	const [modalVisible, setModalVisible] = useState(false); // State for modal visibility
 
 	const pickImage = async () => {
 		let result = await ImagePicker.launchImageLibraryAsync({
@@ -21,9 +29,8 @@ export default function HomeScreen() {
 	};
 
 	async function sendPickerPhotoToAPI() {
-		// if (image) {
-		// 	console.log(image);
-		// }
+		// Open modal
+		setModalVisible(true);
 
 		const postImage = async () => {
 			try {
@@ -33,22 +40,21 @@ export default function HomeScreen() {
 					type: "image/jpeg",
 					name: "photo.jpg",
 				});
-
-				const response = await fetch("http://localhost:5175/plate", {
+				const response = await fetch("https://localhost:7009/plate", {
 					method: "POST",
 					body: formData,
 				});
-
 				if (!response.ok) {
 					throw new Error("Failed to post image");
 				}
-
 				return response;
 			} catch (error) {
 				console.log("Error sending photo", error);
+			} finally {
+				// Close modal after request is finished
+				setModalVisible(false);
 			}
 		};
-
 		postImage();
 	}
 
@@ -69,6 +75,46 @@ export default function HomeScreen() {
 					</TouchableOpacity>
 				)}
 			</View>
+			{/* Modal */}
+			<Modal
+				animationType='slide'
+				transparent={true}
+				visible={modalVisible}
+				onRequestClose={() => setModalVisible(false)}>
+				<View style={styles.modalContainer}>
+					<View style={styles.modalContent}>
+						<Text style={styles.modalHeaderText}>EL5GE70</Text>
+						{/* Lista */}
+						<View style={styles.listContainer}>
+							<Text style={styles.listHeader}>Comment list</Text>
+							<View style={styles.listItem}>
+								<Text style={styles.listItemText}>
+									{"> Kolejny zmanipulowany przez telewizor.."}
+								</Text>
+							</View>
+							<View style={styles.listItem}>
+								<Text style={styles.listItemText}>{"> Nie hejtuję."}</Text>
+							</View>
+							<View style={styles.listItem}>
+								<Text style={styles.listItemText}>{"> Zjeb z elektryka"}</Text>
+							</View>
+							<View style={styles.listItem}>
+								<Text style={styles.listItemText}>
+									{
+										"> równie dobrze mógłby rowerem albo hulajnoga usiłować wjechać"
+									}
+								</Text>
+							</View>
+							<View style={styles.listItem}>
+								<Text style={styles.listItemText}>{"> Dzban"}</Text>
+							</View>
+						</View>
+						<TouchableOpacity onPress={() => setModalVisible(false)}>
+							<Text style={styles.exitButton}>Exit</Text>
+						</TouchableOpacity>
+					</View>
+				</View>
+			</Modal>
 		</View>
 	);
 }
@@ -113,5 +159,52 @@ const styles = StyleSheet.create({
 		borderRadius: 20,
 		marginBottom: 50,
 		marginTop: 150,
+	},
+	modalContainer: {
+		flex: 1,
+		justifyContent: "center",
+		alignItems: "center",
+		backgroundColor: "rgba(0, 0, 0, 0.5)",
+	},
+	modalContent: {
+		backgroundColor: "#fff",
+		padding: 20,
+		width: 375,
+		borderRadius: 10,
+		alignItems: "center",
+	},
+	modalHeaderText: {
+		fontSize: 32,
+		fontWeight: "bold",
+		marginBottom: 10,
+	},
+	modalText: {
+		fontSize: 18,
+		marginBottom: 5,
+	},
+	listContainer: {
+		marginTop: 20,
+	},
+	listHeader: {
+		fontSize: 20,
+		fontWeight: "bold",
+		marginBottom: 10,
+		color: "#007AFF",
+	},
+	listItem: {
+		paddingVertical: 5,
+	},
+	listItemText: {
+		fontSize: 16,
+	},
+	exitButton: {
+		marginTop: 20,
+		color: "#FFFFFF",
+		fontSize: 24,
+		borderRadius: 5,
+		fontWeight: "bold",
+		backgroundColor: "#FF0000",
+		paddingVertical: 5,
+		paddingHorizontal: 10,
 	},
 });
